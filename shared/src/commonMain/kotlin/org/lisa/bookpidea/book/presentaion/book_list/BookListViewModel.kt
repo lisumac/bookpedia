@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.update
 class BookListViewModel : ViewModel() {
 
     private val _state = MutableStateFlow(BookListState())
-    private val state = _state.asStateFlow()
+     val state = _state.asStateFlow()
 
     fun onAction(action: BookListAction) {
         when (action) {
