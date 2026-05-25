@@ -7,6 +7,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.presentaion.book_list.BookListScreen
+import org.lisa.bookpidea.book.presentaion.book_list.BookListState
 import org.lisa.bookpidea.book.presentaion.book_list.components.BookSearchBar
 
 @Preview
@@ -27,29 +30,29 @@ private fun BookSearchBarPreview() {
     }
 }
 
-//private val books = (1..100).map {
-//    Book(
-//        id = it.toString(),
-//        title = "Book $it",
-//        imageUrl = "https://test.com",
-//        authors = listOf("Philipp Lackner"),
-//        description = "Description $it",
-//        languages = emptyList(),
-//        firstPublishYear = null,
-//        averageRating = 4.67854,
-//        ratingCount = 5,
-//        numPages = 100,
-//        numEditions = 3
-//    )
-//}
-//
-//@Preview
-//@Composable
-//private fun BookListScreenPreview() {
-//    BookListScreen(
-//        state = BookListState(
-//            searchResults = books
-//        ),
-//        onAction = {}
-//    )
-//}
+private val books = (1..100).map {
+    Book(
+        id = it.toString(),
+        title = "Book $it",
+        imageUrl = "https://test.com",
+        authors = listOf("Lisa"),
+        description = "Description $it",
+        languages = emptyList(),
+        firstPublishYear = null,
+        averageRating = 4.67854,
+        ratingCount = 5,
+        numPages = 100,
+        numEditions = 3
+    )
+}
+
+@Preview
+@Composable
+private fun BookListScreenPreview() {
+    BookListScreen(
+        state = BookListState(
+            searchResults = books
+        ),
+        onAction = {}
+    )
+}

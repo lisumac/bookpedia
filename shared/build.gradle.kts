@@ -68,6 +68,7 @@ kotlin {
 
             implementation(libs.bundles.ktor)
             implementation(libs.bundles.coil)
+            implementation(compose.materialIconsExtended)
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)
