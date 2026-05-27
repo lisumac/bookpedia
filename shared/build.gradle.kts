@@ -42,6 +42,7 @@ kotlin {
 
     sourceSets {
         androidMain.dependencies {
+            implementation(libs.compose.uiTooling)
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.koin.android)
@@ -88,8 +89,4 @@ configure(listOf(extensions.getByName("room"))) {
 // FIXED: Clean type-safe configuration binding layer to bypass KspTask errors
 configurations.matching { it.name.startsWith("ksp") }.configureEach {
     this.dependencies.add(project.dependencies.create(libs.androidx.room.compiler.get()))
-}
-
-dependencies {
-    androidRuntimeClasspath(libs.compose.uiTooling)
 }
