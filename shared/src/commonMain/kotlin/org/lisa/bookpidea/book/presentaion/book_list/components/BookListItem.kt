@@ -39,6 +39,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import bookpidea.shared.generated.resources.Res
 import bookpidea.shared.generated.resources.book_error_2
+//import bookpidea.shared.generated.resources.Res
+//import bookpidea.shared.generated.resources.book_error_2
 import coil3.compose.AsyncImagePainter
 import coil3.compose.rememberAsyncImagePainter
 import com.plcoding.bookpedia.core.presentation.LightBlue
