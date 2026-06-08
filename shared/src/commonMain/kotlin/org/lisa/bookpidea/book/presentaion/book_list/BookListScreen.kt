@@ -76,8 +76,7 @@ fun BookListScreenRoot(
 @Composable()
 fun BookListScreen(
     state: BookListState,
-    onAction: (BookListAction) -> Unit,
-    viewModel: BookListViewModel = koinViewModel()
+    onAction: (BookListAction) -> Unit
 ) {
 
     val keyboardController = LocalSoftwareKeyboardController.current

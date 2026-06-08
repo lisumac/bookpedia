@@ -19,14 +19,17 @@ import org.jetbrains.compose.resources.painterResource
 
 import bookpidea.shared.generated.resources.Res
 import bookpidea.shared.generated.resources.compose_multiplatform
+import org.koin.compose.KoinContext
 import org.lisa.bookpidea.book.presentaion.book_list.BookListScreenRoot
-import org.lisa.bookpidea.book.presentaion.book_list.BookListViewModel
 
 @Composable
 @Preview
 fun App() {
-    BookListScreenRoot(viewModel= remember { BookListViewModel() } ,
-        onBookClick = {
+    KoinContext {
+        BookListScreenRoot(
+            onBookClick = {
 
-        })
+            }
+        )
+    }
 }
