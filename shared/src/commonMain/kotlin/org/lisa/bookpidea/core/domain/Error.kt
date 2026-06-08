@@ -1,3 +1,3 @@
-package com.plcoding.bookpedia.core.domain
+package org.lisa.bookpidea.core.domain
 
 interface Error

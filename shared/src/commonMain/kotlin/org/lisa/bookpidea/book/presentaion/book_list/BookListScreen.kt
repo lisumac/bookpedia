@@ -129,34 +129,34 @@ fun BookListScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
 
-//                TabRow(
-//                    selectedTabIndex = state.selectedTabIndex,
-//                    modifier = Modifier
-//                        .padding(vertical = 12.dp)
-//                        .widthIn(max = 700.dp)
-//                        .fillMaxWidth(),
-//                    containerColor = DesertWhite,
-//                    indicator = { tabPositions ->
-//                        TabRowDefaults.SecondaryIndicator(
-//                            color = SandYellow,
-//                            modifier = Modifier
-//                                .tabIndicatorOffset(tabPositions[state.selectedTabIndex])
-//                        )
-//                    }
-//                )
-                PrimaryTabRow(
+                TabRow(
                     selectedTabIndex = state.selectedTabIndex,
                     modifier = Modifier
                         .padding(vertical = 12.dp)
                         .widthIn(max = 700.dp)
                         .fillMaxWidth(),
                     containerColor = DesertWhite,
-                    indicator = {
+                    indicator = { tabPositions ->
                         TabRowDefaults.SecondaryIndicator(
                             color = SandYellow,
+                            modifier = Modifier
+                                .tabIndicatorOffset(tabPositions[state.selectedTabIndex])
                         )
                     }
                 )
+//                PrimaryTabRow(
+//                    selectedTabIndex = state.selectedTabIndex,
+//                    modifier = Modifier
+//                        .padding(vertical = 12.dp)
+//                        .widthIn(max = 700.dp)
+//                        .fillMaxWidth(),
+//                    containerColor = DesertWhite,
+//                    indicator = {
+//                        TabRowDefaults.SecondaryIndicator(
+//                            color = SandYellow,
+//                        )
+//                    }
+//                )
                 {
                     Tab(
                         selected = state.selectedTabIndex == 0,
