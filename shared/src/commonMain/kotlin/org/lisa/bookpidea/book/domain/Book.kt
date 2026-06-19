@@ -1,4 +1,4 @@
-package org.lisa.bookpidea.book
+package org.lisa.bookpidea.book.domain
 
 /**
  * Book data class

@@ -44,7 +44,7 @@ import com.plcoding.bookpedia.core.presentation.DesertWhite
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 import org.lisa.bookpidea.book.presentaion.book_list.components.BookList
 import org.lisa.bookpidea.book.presentaion.book_list.components.BookSearchBar
 

@@ -8,7 +8,7 @@ import io.ktor.client.network.sockets.SocketTimeoutException
 import io.ktor.client.statement.HttpResponse
 import io.ktor.util.network.UnresolvedAddressException
 import kotlinx.coroutines.ensureActive
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 import org.lisa.bookpidea.book.data.dto.SearchResponseDto
 import org.lisa.bookpidea.core.domain.DataError
 import kotlin.coroutines.coroutineContext

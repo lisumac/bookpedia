@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 
 @Composable
 fun BookList(

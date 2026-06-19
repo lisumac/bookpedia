@@ -46,7 +46,7 @@ import coil3.compose.rememberAsyncImagePainter
 import com.plcoding.bookpedia.core.presentation.LightBlue
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 import kotlin.math.round
 
 @Composable

@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 import org.lisa.bookpidea.book.presentaion.book_list.BookListScreen
 import org.lisa.bookpidea.book.presentaion.book_list.BookListState
 import org.lisa.bookpidea.book.presentaion.book_list.components.BookSearchBar

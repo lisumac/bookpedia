@@ -6,7 +6,7 @@ import com.plcoding.bookpedia.core.domain.Result
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 import org.lisa.bookpidea.book.data.dto.SearchResponseDto
 import org.lisa.bookpidea.core.data.safeCall
 import org.lisa.bookpidea.core.domain.DataError

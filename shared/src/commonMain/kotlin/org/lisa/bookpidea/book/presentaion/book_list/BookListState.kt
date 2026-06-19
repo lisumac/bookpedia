@@ -1,7 +1,7 @@
 package org.lisa.bookpidea.book.presentaion.book_list
 
 import com.plcoding.bookpedia.core.presentation.UiText
-import org.lisa.bookpidea.book.Book
+import org.lisa.bookpidea.book.domain.Book
 
 
 
